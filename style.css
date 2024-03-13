@@ -1,0 +1,499 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none; /*убрать подчеhкивание*/
+  color: inherit; /*наследует цвет*/
+}
+
+ul {
+  list-style: none; /*убрать точки у списка*/
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: default;
+}
+body {
+  font-family: "Karla", sans-serif;
+  margin: 0px;
+}
+
+/* -----------------HEADER------------------------------ */
+.open {
+  display: flex !important;
+}
+
+.header {
+  background-color: #2a4359;
+  /* position: fixed; */
+}
+.header__inner {
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+}
+.header__logo {
+  font-size: 32px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.header-menu {
+  margin: 0px 0px 0px 100px;
+}
+
+.header-menu__list {
+  display: flex;
+  gap: 0 65px; /*расстояние между элеметами 65px*/
+}
+.header-menu__item {
+}
+
+.header-menu__link {
+  font-size: 20px;
+  color: #f1f0fc;
+}
+
+.header-menu__link:hover {
+  color: rgb(243, 175, 91);
+}
+
+/* БУРГЕР */
+.burger {
+  display: none;
+  position: relative;
+  z-index: 50;
+  align-items: center;
+  justify-content: flex-end;
+  width: 30px;
+  height: 30px;
+}
+
+.burger span {
+  height: 2px;
+  width: 80%;
+  transform: scale(1);
+  background-color: #ffffff;
+}
+
+.burger::before,
+.burger::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background-color: #ffffff;
+  transition: all 0.3s ease 0s;
+}
+
+.burger::before {
+  top: 0;
+}
+
+.burger::after {
+  bottom: 0;
+}
+
+.burger.active span {
+  transform: scale(0);
+}
+
+.burger.active::before {
+  top: 50%;
+  transform: rotate(-45deg) translate(0, -50%);
+}
+
+.burger.active::after {
+  bottom: 50%;
+  transform: rotate(45deg) translate(0, 50%);
+}
+
+@media (max-width: 1050px) {
+  .burger {
+    display: flex;
+  }
+
+  .header-menu {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    height: 50%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+    overflow-y: auto;
+    padding: 50px 40px;
+    margin: 0;
+    background-color: #2a4359;
+    animation: burgerAnimation 0.4s;
+  }
+  .header-menu__list {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  .header-menu__item {
+    padding-bottom: 5px;
+    border-bottom: solid 1px white;
+  }
+  .header__inner {
+    justify-content: space-between;
+  }
+}
+
+@keyframes burgerAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* ------------СОБЫТИЯ И ДНИ РОЖДЕНИЯ------------------------------------------ */
+
+.info {
+  padding: 40px 0 40px 0;
+  background-color: #00000007;
+}
+
+.info__inner {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* --------------СОБЫТИЯ--------------------- */
+
+.info-calendar {
+  width: 50%;
+  max-height: 450px;
+  padding: 10px;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.info-calendar__logo {
+  color: #2a4359;
+  font-size: 24px;
+  text-shadow: 1px 1px 2px rgb(217, 232, 243);
+}
+
+.info-calendar__list {
+  padding: 20px;
+  background-color: #2a4359;
+  border-radius: 50px;
+  color: #ffffff;
+}
+
+.info-calendar__item {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  margin-bottom: 10px;
+}
+
+.info-calendar__date {
+  text-align: center;
+}
+
+.day {
+  font-size: 40px;
+  margin: 0px;
+}
+
+.month {
+  margin: 0px;
+}
+
+.info-calendar__text {
+  font-size: 24px;
+  margin: 0px;
+  max-width: 280px;
+}
+
+.plus__btn {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  background-color: #688cac;
+  color: #ffffff;
+  text-align: center;
+}
+
+.plus__btn:hover {
+  background-color: #c4b071;
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .info__inner {
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+  }
+  .info-calendar {
+    width: 90%;
+  }
+  .info-calendar__item {
+    justify-content: space-around;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 650px) {
+  .info {
+    padding: 20px 0 20px 0;
+    background-color: #00000007;
+  }
+  .info__inner {
+  }
+  .info-calendar {
+    width: 100%;
+    padding: 0;
+  }
+  .info-calendar__item {
+    justify-content: space-between;
+    /* margin-bottom: 5px; */
+  }
+  .info-calendar__logo {
+    color: #2a4359;
+    font-size: 18px;
+    text-shadow: 1px 1px 2px rgb(217, 232, 243);
+  }
+  .info-calendar__text {
+    font-size: 16px;
+    margin: 0px;
+    max-width: 280px;
+    text-align: center;
+  }
+  .day {
+    font-size: 20px;
+    margin: 0px;
+  }
+
+  .plus__btn {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    background-color: #688cac;
+    color: #ffffff;
+    text-align: center;
+  }
+}
+
+/* --------------ДНИ РОЖДЕНИЯ------------------------------------------------- */
+
+.info-age {
+  padding: 20px;
+  width: 30%;
+  max-height: 400px;
+  background-color: #2a4359;
+  border-radius: 50px;
+}
+.info-age__navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px 0px 10px;
+}
+
+.info-age__logo {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.navigation__btn {
+}
+.early__btn {
+}
+
+.next__btn {
+}
+
+.btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  background-color: #688cac;
+  color: #ffffff;
+  /* font-weight: 900; */
+}
+
+.btn:hover {
+  background-color: #c4b071;
+  cursor: pointer;
+}
+
+.info-age__list {
+  padding-left: 0px;
+}
+
+.info-age__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+
+.info-age__img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.info-age__text {
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.info-age__year {
+  margin-bottom: 0px;
+}
+
+@media (max-width: 1000px) {
+  .info-age {
+    width: 60%;
+  }
+  .info-age__img {
+    width: 200px;
+  }
+  .info-age__logo {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 650px) {
+  .info-age {
+    width: 100%;
+  }
+  .info-age__img {
+    width: 100px;
+  }
+  .info-age__logo {
+    font-size: 18px;
+  }
+}
+
+/* ----------НОВОСТИ---------------------------------- */
+.news {
+  background-color: #2a4359;
+  padding: 40px 0 40px 0;
+  /* color: #000000; */
+}
+
+.news__inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+
+  /* border: 10px solid #f1f0fc; */
+}
+
+.news__logo {
+  text-align: center;
+  padding: 20px 0px 20px 0px;
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+.news__item {
+  background-color: rgb(255, 255, 255);
+  height: 270px;
+  width: calc(25% - 15px);
+  border: solid 4px #c4b071;
+
+  padding: 15px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.item1 {
+  border-radius: 80px;
+}
+
+.item2 {
+  border-top-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+  border-bottom-left-radius: 80px;
+}
+
+.item3 {
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
+  border-bottom-right-radius: 80px;
+}
+
+.news__foto {
+}
+
+.picture {
+  /* border-top-left-radius: 80px; */
+  /* width: 100px; */
+  height: 100px;
+  padding-bottom: 10px;
+}
+
+.news__text {
+  text-align: center;
+}
+
+.news__title {
+}
+
+.news__paragraph {
+}
+
+.news__link {
+  text-transform: uppercase;
+}
+
+.news__link:hover {
+  color: #c4b071;
+}
+
+/* -------------FOOTER---------------------- */
+.footer {
+  background-color: #3e5163;
+}
+
+.footer__inner {
+  display: flex;
+  height: 65px;
+  justify-content: center; /*выравнивает по горизонтали по центру*/
+  align-items: center; /*выравниет по вертикали по центру*/
+}
+
+.footer__text {
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0.3px; /*расстояние между буквами*/
+}
