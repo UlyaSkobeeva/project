@@ -7,6 +7,7 @@
     <title>Сотрудники</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="person.css">
+    <script src="person.js" defer></script>
 </head>
 
 <body>
@@ -34,21 +35,23 @@
             </div>
         </div>
     </header>
+
     <main>
         <div class="find">
             <div class="container">
                 <div class="find__inner">
                     <img src="https://cdn-icons-png.flaticon.com/512/751/751463.png" alt="" class="find__img">
-                    <input class="find__info" type="text" placeholder="Введите данные для поиска">
+                    <input class="find__info" type="text" placeholder="Введите данные для поиска" id="filter">
                 </div>
             </div>
         </div>
+
         <div class=" card">
             <div class="container">
-                <div class="card__inner">
-                    <div class="card__item">
-                        <div class="card__image"><img
-                                src="https://www.e-xecutive.ru/uploads/article/image/1994017/thumb_Malov.JPG" alt=""
+                <div class="card__inner" id="card__list">
+                    <!-- <div class="card__item">
+                        <div class="card__img"><img
+                                src="https://i.pinimg.com/736x/79/c1/62/79c16268868eb9fced9c3214aab15311.jpg" alt=""
                                 class="img"></div>
                         <div class="card__info">
                             <h3 class="FIO">Баранов Андрей Алексеевич</h3>
@@ -57,78 +60,10 @@
                             <h4 class="mail">Почта: baranov@mail.ru</h4>
                             <h4 class="date">Дата рождения: 29.10.2004</h4>
                         </div>
-                    </div>
-                    <div class="card__item">
-                        <div class="card__image"><img
-                                src="https://img.freepik.com/free-photo/smiling-blond-businesswoman-showing-okay-signs-winking-and-looking-satisfied-approve-and-praise-smth-good-wearing-corporate-clothing-white-background_176420-50353.jpg"
-                                alt="" class="img"></div>
-                        <div class="card__info">
-                            <h3 class="FIO">Афанасьева Алина Дмитриева</h3>
-                            <h4 class="job">Должность: менеджер</h4>
-                            <h4 class="telephone">Телефон: +7-786-788-98-67</h4>
-                            <h4 class="mail">Почта: baranov@mail.ru</h4>
-                            <h4 class="date">Дата рождения: 29.10.2004</h4>
-                        </div>
-                    </div>
-                    <div class="card__item">
-                        <div class="card__image"><img
-                                src="https://www.golosagorodov.info/upload/iblock/94c/94cde810eee4ea6a3a187a6d0e3870fc.jpg"
-                                alt="" class="img"></div>
-                        <div class="card__info">
-                            <h3 class="FIO">Серебряк Евгения Игоревна</h3>
-                            <h4 class="job">Должность: инженер-программист</h4>
-                            <h4 class="telephone">Телефон: +7-786-788-98-67</h4>
-                            <h4 class="mail">Почта: baranov@mail.ru</h4>
-                            <h4 class="date">Дата рождения: 29.10.2004</h4>
-
-                        </div>
-                    </div>
-
-
-
-                    <div class="card__item">
-                        <div class="card__image"><img
-                                src="https://www.golosagorodov.info/upload/iblock/94c/94cde810eee4ea6a3a187a6d0e3870fc.jpg"
-                                alt="" class="img"></div>
-                        <div class="card__info">
-                            <h3 class="FIO">Серебряк Евгения Игоревна</h3>
-                            <h4 class="job">Должность: инженер-программист</h4>
-                            <h4 class="telephone">Телефон: +7-786-788-98-67</h4>
-                            <h4 class="mail">Почта: baranov@mail.ru</h4>
-                            <h4 class="date">Дата рождения: 29.10.2004</h4>
-
-                        </div>
-                    </div>
-
-
-                    <div class="card__item">
-                        <div class="card__image"><img
-                                src="https://www.golosagorodov.info/upload/iblock/94c/94cde810eee4ea6a3a187a6d0e3870fc.jpg"
-                                alt="" class="img"></div>
-                        <div class="card__info">
-                            <h3 class="FIO">Серебряк Евгения Игоревна</h3>
-                            <h4 class="job">Должность: инженер-программист</h4>
-                            <h4 class="telephone">Телефон: +7-786-788-98-67</h4>
-                            <h4 class="mail">Почта: baranov@mail.ru</h4>
-                            <h4 class="date">Дата рождения: 29.10.2004</h4>
-
-                        </div>
-                    </div>
-
-                    <div class="card__item">
-                        <div class="card__image"><img
-                                src="https://www.golosagorodov.info/upload/iblock/94c/94cde810eee4ea6a3a187a6d0e3870fc.jpg"
-                                alt="" class="img"></div>
-                        <div class="card__info">
-                            <h3 class="FIO">Серебряк Евгения Игоревна</h3>
-                            <h4 class="job">Должность: инженер-программист</h4>
-                            <h4 class="telephone">Телефон: +7-786-788-98-67</h4>
-                            <h4 class="mail">Почта: baranov@mail.ru</h4>
-                            <h4 class="date">Дата рождения: 29.10.2004</h4>
-
-                        </div>
-                    </div>
+                    </div> -->
                 </div>
+            </div>
+        </div>
     </main>
 </body>
 

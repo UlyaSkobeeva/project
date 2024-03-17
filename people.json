@@ -1,0 +1,67 @@
+[
+{
+      "img": "https://i.pinimg.com/736x/79/c1/62/79c16268868eb9fced9c3214aab15311.jpg",
+    "name": "Иванов Иванов Иванович",
+      "year": "16.03.1995", 
+      "birthday":"03.17.1995", 
+      "job": "Программист",
+      "number": "89078679876",
+      "mail": "Ivanov@mail.ru"
+    },
+   {
+    "img": "https://i.pinimg.com/736x/79/c1/62/79c16268868eb9fced9c3214aab15311.jpg",
+      "name": "Петров Петр Петрович",
+      "year": "16.09.2000",
+      "birthday":"03.18.1995",
+      "job": "Менеджер",
+      "number": "89078679876",
+      "mail": "Ivanov@mail.ru"
+    },
+    {
+        "img": "https://i.pinimg.com/736x/79/c1/62/79c16268868eb9fced9c3214aab15311.jpg",
+      "name": "Иванов Иванов Иванович",
+      "year": "06.05.2001",
+      "birthday":"05.06.1995",
+      "job": "Менеджер",
+      "number": "89078679876",
+      "mail": "Ivanov@mail.ru"
+    },
+    {
+        "img": "https://i.pinimg.com/736x/79/c1/62/79c16268868eb9fced9c3214aab15311.jpg",
+      "name": "Сидоров",
+      "year": "18.01.2001",
+      "birthday":"01.18.1995",
+      "job": "Инженер",
+      "number": "89078679876",
+      "mail": "Ivanov@mail.ru"
+    },
+    {
+      "img": "https://i.pinimg.com/736x/79/c1/62/79c16268868eb9fced9c3214aab15311.jpg",
+    "name": "Сидоров",
+    "year": "18.01.2001",
+    "birthday":"03.21.1995",
+    "job": "Инженер",
+    "number": "89078679876",
+    "mail": "Ivanov@mail.ru"
+  },
+  {
+    "img": "https://i.pinimg.com/736x/79/c1/62/79c16268868eb9fced9c3214aab15311.jpg",
+  "name": "Сидоров",
+  "year": "18.01.2001",
+  "birthday":"03.24.1995",
+  "job": "Инженер",
+  "number": "89078679876",
+  "mail": "Ivanov@mail.ru"
+},
+{
+  "img": "https://i.pinimg.com/736x/79/c1/62/79c16268868eb9fced9c3214aab15311.jpg",
+"name": "Сидоров",
+"year": "18.01.2001",
+"birthday":"03.26.1995",
+"job": "Инженер",
+"number": "89078679876",
+"mail": "Ivanov@mail.ru"
+}
+]
+  
+  

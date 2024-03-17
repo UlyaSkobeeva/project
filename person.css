@@ -1,5 +1,5 @@
 .find {
-  margin-top: 20px;
+  margin: 20px 0 20px 0;
 }
 
 .find__inner {
@@ -22,17 +22,20 @@
 
 /* -------------------------------------------------- */
 .card__inner {
+  /* background-color: aqua; */
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 .card__item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  width: 48%;
 
-  margin: 30px 15px 30px 15px;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: space-around;
+
+  margin-bottom: 15px;
   padding: 20px 20px 20px 20px;
   background-color: rgba(171, 169, 167, 0.164);
   text-align: center;
@@ -44,16 +47,16 @@
 .card__item:hover {
   /* background-color: rgba(199, 111, 23, 0.164); */
 }
-
-.img {
-  width: 200px;
-  border-radius: 20%;
+.card__info {
+  padding-left: 10px;
 }
-
+.img {
+  width: 180px;
+  border-radius: 50%;
+}
 .FIO {
   font-size: 22px;
 }
-
 .job {
   font-size: 18px;
   margin: 10px 0px 10px 0px;
