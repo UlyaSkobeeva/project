@@ -142,7 +142,7 @@ body {
     display: none;
     flex-direction: column;
     position: fixed;
-    height: 40%;
+    height: 350px;
     width: 100%;
     top: 0;
     bottom: 0;
@@ -358,7 +358,8 @@ body {
   width: 35px;
   height: 35px;
   font-size: 30px;
-  /* background-color: #688cac; */
+  background-color: #2a4359;
+  border: 0;
   font-weight: bold;
   color: #ffffff;
   position: relative;
