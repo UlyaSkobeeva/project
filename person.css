@@ -76,3 +76,57 @@
   font-size: 18px;
   margin: 10px 0px 10px 0px;
 }
+
+@media (max-width: 1100px) {
+  .card__item {
+    width: 80%;
+  }
+}
+
+@media (max-width: 720px) {
+  .card__item {
+    width: 100%;
+  }
+}
+
+@media (max-width: 580px) {
+  .card__item {
+    padding: 10px;
+  }
+  .img {
+    width: 130px;
+  }
+}
+
+@media (max-width: 580px) {
+  .find__info {
+    width: 200px;
+  }
+  .card__item {
+    flex-direction: column;
+  }
+  .img {
+    width: 100px;
+  }
+  .card__info {
+    padding-left: 0px;
+  }
+  .FIO {
+    font-size: 18px;
+  }
+  .job {
+    font-size: 16px;
+  }
+
+  .telephone {
+    font-size: 16px;
+  }
+
+  .mail {
+    font-size: 16px;
+  }
+
+  .date {
+    font-size: 16px;
+  }
+}

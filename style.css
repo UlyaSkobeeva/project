@@ -80,8 +80,37 @@ body {
 }
 
 .header-menu__link:hover {
-  color: rgb(243, 175, 91);
+  color: #edd37e;
 }
+
+#main__link {
+  padding: 3px 10px;
+  margin-bottom: 10px;
+  font-size: 22px;
+  border: 2px solid #c4b171b6;
+  border-radius: 20px;
+}
+#person__link {
+  padding: 3px 10px;
+  margin-bottom: 10px;
+  font-size: 22px;
+  border: 2px solid #c4b171b6;
+  border-radius: 20px;
+}
+/* #newPerson__link {
+  padding: 3px 10px;
+  margin-bottom: 10px;
+  font-size: 22px;
+  border: 2px solid #c4b171b6;
+  border-radius: 20px;
+}
+#idea__link {
+  padding: 3px 10px;
+  margin-bottom: 10px;
+  font-size: 22px;
+  border: 2px solid #c4b171b6;
+  border-radius: 20px;
+} */
 
 /* БУРГЕР */
 .burger {
@@ -161,7 +190,7 @@ body {
     padding-left: 20px;
   }
   .header-menu__item {
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     border-bottom: solid 1px white;
   }
   .header__inner {
@@ -219,7 +248,7 @@ body {
 
 .info-calendar__item {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 
   margin-bottom: 10px;
@@ -241,7 +270,8 @@ body {
 .info-calendar__text {
   font-size: 24px;
   margin: 0px;
-  max-width: 280px;
+  max-width: 370px;
+  text-align: center;
 }
 
 .plus__btn {
@@ -271,7 +301,7 @@ body {
     width: 90%;
   }
   .info-calendar__item {
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 10px;
   }
 }
@@ -289,6 +319,7 @@ body {
   }
   .info-calendar__item {
     justify-content: space-between;
+
     /* margin-bottom: 5px; */
   }
   .info-calendar__logo {
@@ -299,7 +330,7 @@ body {
   .info-calendar__text {
     font-size: 16px;
     margin: 0px;
-    max-width: 280px;
+    /* max-width: 160px; */
     text-align: center;
   }
   .day {
@@ -315,6 +346,11 @@ body {
     background-color: #688cac;
     color: #ffffff;
     text-align: center;
+  }
+}
+@media (max-width: 460px) {
+  .info-calendar__text {
+    max-width: 160px;
   }
 }
 
@@ -396,6 +432,7 @@ body {
 
 .info-age__img {
   width: 200px;
+  /* height: 200px; */
   border-radius: 50%;
 }
 
@@ -423,6 +460,7 @@ body {
   }
   .info-age__img {
     width: 100px;
+    /* height: 100px; */
   }
   .info-age__logo {
     font-size: 16px;
@@ -502,9 +540,11 @@ body {
 }
 
 .news__title {
+  font-weight: 600;
 }
 
 .news__paragraph {
+  color: #000000ba;
 }
 
 .news__link {

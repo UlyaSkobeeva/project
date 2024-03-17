@@ -1,66 +1,75 @@
 [
 {
       "img": "https://i.pinimg.com/736x/79/c1/62/79c16268868eb9fced9c3214aab15311.jpg",
-    "name": "Иванов Иванов Иванович",
-      "year": "16.03.1995", 
+    "name": "Савельев Максим Иванович",
+      "year": "17.03.1995", 
       "birthday":"03.17.1995", 
-      "job": "Программист",
+      "job": "Директор",
       "number": "89078679876",
-      "mail": "Ivanov@mail.ru"
+      "mail": "SavelevM@mail.ru"
     },
    {
-    "img": "https://i.pinimg.com/736x/79/c1/62/79c16268868eb9fced9c3214aab15311.jpg",
-      "name": "Петров Петр Петрович",
-      "year": "16.09.2000",
+    "img": "https://static.tildacdn.com/tild6136-6261-4635-b130-643134303761/noroot.png",
+      "name": "Фокин Евгений Петрович ",
+      "year": "18.03.1975",
       "birthday":"03.18.1995",
-      "job": "Менеджер",
+      "job": "Руководитель IT-отдела",
       "number": "89078679876",
-      "mail": "Ivanov@mail.ru"
+      "mail": "Fokin@mail.ru"
     },
     {
-        "img": "https://i.pinimg.com/736x/79/c1/62/79c16268868eb9fced9c3214aab15311.jpg",
-      "name": "Иванов Иванов Иванович",
-      "year": "06.05.2001",
-      "birthday":"05.06.1995",
-      "job": "Менеджер",
+        "img": "https://thumbs.dreamstime.com/b/%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81-%D0%BB%D0%B5%D0%B4%D0%B8-%D0%B4%D0%B5%D1%80%D0%B6%D0%B0-%D0%BA%D0%BD%D0%B8%D0%B3%D1%83-%D0%BC%D0%BE%D0%BB%D0%BE%D0%B4%D0%BE%D0%B9-%D0%B6%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9-%D0%BF%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%B0-103843209.jpg",
+      "name": "Алексеева Ирина Сергеевна",
+      "year": "06.05.1998",
+      "birthday":"05.06.1998",
+      "job": "Секретарь",
       "number": "89078679876",
-      "mail": "Ivanov@mail.ru"
+      "mail": "AlexeevaI@mail.ru"
     },
     {
-        "img": "https://i.pinimg.com/736x/79/c1/62/79c16268868eb9fced9c3214aab15311.jpg",
-      "name": "Сидоров",
-      "year": "18.01.2001",
-      "birthday":"01.18.1995",
-      "job": "Инженер",
+        "img": "https://avatars.mds.yandex.net/i?id=4b5f2910ef6ae60359798cadeab31ec1-4552949-images-thumbs&n=13",
+      "name": "Смирнов Алексей Викторович",
+      "year": "18.01.1990",
+      "birthday":"01.18.1990",
+      "job": "Инспектор по кадрам",
       "number": "89078679876",
-      "mail": "Ivanov@mail.ru"
+      "mail": "Smirnov@mail.ru"
     },
     {
-      "img": "https://i.pinimg.com/736x/79/c1/62/79c16268868eb9fced9c3214aab15311.jpg",
-    "name": "Сидоров",
-    "year": "18.01.2001",
+      "img": "https://shortread.ru/wp-content/uploads/2020/11/Guzel-Valeeva-e1604517752818-750x750.jpg.pagespeed.ce.hFdTVJiIlY.jpg",
+    "name": "Лазарева Анна Андреевна",
+    "year": "21.01.1995",
     "birthday":"03.21.1995",
-    "job": "Инженер",
+    "job": "Главный бухгалтер",
     "number": "89078679876",
-    "mail": "Ivanov@mail.ru"
+    "mail": "Lazareva@mail.ru"
   },
   {
-    "img": "https://i.pinimg.com/736x/79/c1/62/79c16268868eb9fced9c3214aab15311.jpg",
-  "name": "Сидоров",
-  "year": "18.01.2001",
-  "birthday":"03.24.1995",
+    "img": "https://optimaplast.uz/wp-content/uploads/2023/10/8zx47wa8kf1tpv-8k7fmgajve8gprbfjqksjwxhabojgjvqnfz2lhnh-cq4kuka2evhosr6opiyulce6mu2hwgji6jygefy5rmdoekwinhnlf3xdq8felw4muta_ttlotu9sdau79ffd58rujmibakeovx2qcs9ege5zkls1pyk_lyg3rx-768x768.webp",
+  "name": "Ильин Артём Константинович",
+  "year": "24.03.1994",
+  "birthday":"03.24.1996",
   "job": "Инженер",
   "number": "89078679876",
-  "mail": "Ivanov@mail.ru"
+  "mail": "IlinAr@mail.ru"
 },
 {
-  "img": "https://i.pinimg.com/736x/79/c1/62/79c16268868eb9fced9c3214aab15311.jpg",
-"name": "Сидоров",
-"year": "18.01.2001",
-"birthday":"03.26.1995",
-"job": "Инженер",
+  "img": "https://static.tildacdn.com/tild3534-3664-4164-b662-393933356239/____.JPG",
+"name": "Волкова Дарья Анатольевна",
+"year": "26.03.1993",
+"birthday":"03.26.1993",
+"job": "Бухгалтер",
 "number": "89078679876",
-"mail": "Ivanov@mail.ru"
+"mail": "Volkova@mail.ru"
+},
+{
+  "img": "https://ua.estet-portal.com/images/article/main/fokus-na-prikus-kak-uluchshit-estetiku-lica-i-obshchee-zdorove-1591008203.jpeg",
+"name": "Березина Кристина Марковна",
+"year": "26.03.2001",
+"birthday":"03.26.2001",
+"job": "IT-специалист",
+"number": "89078679876",
+"mail": "Berezina@mail.ru"
 }
 ]
   
