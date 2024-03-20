@@ -1,8 +1,3 @@
-// const main = document.querySelector("#main__link");
-// const person = document.querySelector("#person__link");
-// const newPerson__link = document.querySelector("#newPerson__link");
-// const idea = document.querySelector("#idea__link");
-
 //бургер
 document.querySelector(".burger").addEventListener("click", function () {
   this.classList.toggle("active");

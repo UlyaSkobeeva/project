@@ -1,3 +1,9 @@
+//бургер
+document.querySelector(".burger").addEventListener("click", function () {
+  this.classList.toggle("active");
+  document.querySelector(".header-menu").classList.toggle("open");
+});
+
 const list = document.querySelector("#card__list");
 const filter = document.querySelector("#filter");
 let PERSONS = [];

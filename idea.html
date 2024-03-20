@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" /> -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="idea.css">
+    <script src="idea.js" defer></script>
+    <title>Банк идей</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="#" class="header__logo ">
+                    𝓓𝓪𝓽𝓪𝓘𝓽𝓣𝓮𝓪𝓶
+                    <!-- <img src="" alt="" class="logo__image"> -->
+                </a>
+                <nav class="header-menu">
+                    <ul class="header-menu__list">
+                        <li class="header-menu__item"><a href="index.html" class="header-menu__link">Главная</a></li>
+                        <li class="header-menu__item"><a href="person.html" class="header-menu__link">Сотрудники</a>
+                        </li>
+                        <!-- <li class="header-menu__item"><a href="#" class="header-menu__link">Документы</a></li> -->
+                        <!-- <li class="header-menu__item"><a href="#" class="header-menu__link">Чат</a></li> -->
+
+                        <li class="header-menu__item"><a href="#" class="header-menu__link">Новому
+                                сотруднику</a></li>
+                        <li class="header-menu__item"><a href="#" class="header-menu__link" id="idea__link">Банк
+                                идей</a></li>
+                    </ul>
+                </nav>
+                <div class="burger">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="idea">
+        <div class="container">
+            <div class="idea_container">
+
+                <div class="idea__inner">
+
+                    <!-- <div class="idea__logo">
+                        Мы ценим ваше
+                        участие в формировании будущих изменений нашего портала и приглашаем вас оценить идеи ваших
+                        коллег</div> -->
+                    <!-- Форма для ввода -->
+                    <div class="card">
+
+                        <div class="card-body">
+
+                            <form id="form">
+                                <div class="card-header logo">Добавить новую идею</div>
+                                <div class="form-group">
+                                    <input type="text" class="form-idea" id="taskInput" placeholder="Введите новую идею"
+                                        autocomplete="off">
+                                    <small id="emailHelp" class="form-text">поделиться идеями по усовершенствованию
+                                        портала
+                                    </small>
+                                </div>
+                                <button type="submit" class="form-btn ">Добавить</button>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- //Форма для ввода  -->
+
+                    <!-- <button id="removeDoneTasks" class="btn btn-secondary mt-4 float-right">Удалить выполненные задачи</button> -->
+
+                    <!-- List of tasks -->
+                    <div class="card mb-4">
+                        <ul id="tasksList" class="list-group">
+                            <!-- <li class="list-group-item d-flex justify-content-between task-item">
+					<span class="task-title">Купить молоко</span>
+					<div class="task-item__buttons">
+						<button type="button done" data-action="done" class="btn-action">
+							🤍0
+						</button>
+						<button type="button" data-action="delete" class="btn-action">
+							<img src="./img/cross.svg" alt="Done" width="18" height="18">
+						</button>
+					</div>
+				    </li> -->
+
+                        </ul>
+                    </div>
+                    <!-- //List of tasks -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+
+</html>

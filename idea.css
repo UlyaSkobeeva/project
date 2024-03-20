@@ -1,0 +1,181 @@
+body {
+  background-image: url(https://bestwallpapers.net/desktop/wp-content/uploads/2021/02/Bulbs-Glow-Blue-Free-Wallpapers.jpg);
+}
+
+.idea {
+  margin-top: 20px;
+}
+.idea_container {
+  display: flex;
+  justify-content: center;
+}
+.idea__inner {
+  background-color: rgba(255, 255, 255, 0.803);
+  width: 70%;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card {
+}
+.card-header {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.card-body {
+}
+#form {
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-idea {
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.form-text {
+  margin-bottom: 10px;
+}
+.form-btn {
+  font-size: 16px;
+  border-radius: 10px;
+  padding: 5px 8px;
+  background-color: #2a4359;
+  color: rgb(255, 255, 255);
+}
+.form-btn:hover {
+  background-color: #c4b071;
+  cursor: pointer;
+}
+
+/* 
+
+*/
+.list-group {
+  padding: 0 20px;
+}
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #2a4359;
+  border-radius: 10px;
+  /* border: 1px solid #2a4359; */
+  color: rgb(255, 255, 255);
+}
+
+.task-title {
+  font-size: 18px;
+  width: 80%;
+  word-wrap: break-word;
+}
+
+.task-item__buttons {
+  display: flex;
+  align-items: center;
+}
+
+.btn-action {
+}
+.done {
+  border-radius: 10px;
+  font-size: 18px;
+  height: 35px;
+  margin-right: 10px;
+  /* background-color: rgb(237, 87, 87);
+  color: aliceblue; */
+}
+
+.btn-action:hover {
+  background-color: #ffffffcc;
+  cursor: pointer;
+}
+
+.btn-action--done {
+  background-color: #ff0000cc;
+  color: aliceblue;
+  visibility: collapse;
+}
+
+.btn-action--done:before {
+  /* content: "🤍 0"; */
+  content: "🤍 1 ";
+  display: flex;
+  align-items: center;
+  background-color: #ff0000;
+  border-radius: 10px;
+  font-size: 18px;
+
+  padding: 5px;
+  visibility: visible;
+}
+
+.btn-action--done:hover {
+  background-color: #fa4646cc;
+  cursor: pointer;
+}
+
+@media (max-width: 1150px) {
+  .idea__inner {
+    width: 90%;
+  }
+}
+
+@media (max-width: 800px) {
+  .idea__inner {
+    width: 100%;
+  }
+  .task-title {
+    width: 70%;
+  }
+}
+
+@media (max-width: 650px) {
+  .idea__inner {
+    padding: 20px 5px;
+  }
+  .task-title {
+    font-size: 16px;
+  }
+  .list-group {
+    padding: 0 10px;
+  }
+  .done {
+    font-size: 16px;
+  }
+  .btn-action--done:before {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 500px) {
+  .idea__inner {
+    padding: 20px 8px;
+  }
+  .list-group {
+    padding: 0px;
+  }
+  .task-title {
+    padding-right: 10px;
+    width: 75%;
+  }
+  .container {
+    padding: 0 10px;
+  }
+  .task-item__buttons {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .done {
+    margin-right: 0px;
+    margin-bottom: 5px;
+  }
+}

@@ -53,7 +53,7 @@ body {
 }
 .header__logo {
   font-size: 32px;
-  font-weight: bold;
+  /* font-weight: bold; */
   color: #ffffff;
 }
 
@@ -103,14 +103,14 @@ body {
   font-size: 22px;
   border: 2px solid #c4b171b6;
   border-radius: 20px;
-}
+}*/
 #idea__link {
   padding: 3px 10px;
   margin-bottom: 10px;
   font-size: 22px;
   border: 2px solid #c4b171b6;
   border-radius: 20px;
-} */
+}
 
 /* БУРГЕР */
 .burger {
@@ -603,14 +603,14 @@ body {
 }
 
 .footer__inner {
-  display: flex;
-  height: 65px;
-  justify-content: center; /*выравнивает по горизонтали по центру*/
-  align-items: center; /*выравниет по вертикали по центру*/
+  /* display: flex; */
+  /* height: 65px; */
+  /* justify-content: center; выравнивает по горизонтали по центру */
+  /* align-items: center; выравниет по вертикали по центру */
 }
 
 .footer__text {
-  color: #ffffff;
-  font-size: 12px;
-  letter-spacing: 0.3px; /*расстояние между буквами*/
+  /* color: #ffffff; */
+  /* font-size: 12px; */
+  /* letter-spacing: 0.3px; расстояние между буквами */
 }
