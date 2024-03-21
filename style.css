@@ -287,8 +287,9 @@ body {
 }
 
 .plus__btn:hover {
-  background-color: #c4b071;
+  background-color: #c4b171cf;
   cursor: pointer;
+  /* box-shadow: 1px 1px 5px 5px #c4b071; */
 }
 
 @media (max-width: 1000px) {
